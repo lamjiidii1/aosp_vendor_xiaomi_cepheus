@@ -279,6 +279,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cepheus/proprietary/vendor/etc/camera/CFR_para_W.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_W.bin \
     vendor/xiaomi/cepheus/proprietary/vendor/etc/camera/LDC_FPC_TUNING_DATA.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_FPC_TUNING_DATA.bin \
     vendor/xiaomi/cepheus/proprietary/vendor/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/etc/camera/LDC_PACKDATA_VENDORID_0x03.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_PACKDATA_VENDORID_0x03.bin \
     vendor/xiaomi/cepheus/proprietary/vendor/etc/camera/LDC_table_src1.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_table_src1.dat \
     vendor/xiaomi/cepheus/proprietary/vendor/etc/camera/LDC_table_src2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_table_src2.dat \
     vendor/xiaomi/cepheus/proprietary/vendor/etc/camera/MILanPro_Regular.ttf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/MILanPro_Regular.ttf \
@@ -833,7 +834,35 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera.device@3.5-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-external-impl.so \
     vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-impl.so \
     vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera.device@3.6-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.6-external-impl.so \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.sensor.imx481.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx481.so \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.sensor.imx586.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx586.so \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.sensor.s5k3m5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k3m5.so \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.sensor.s5k3t1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k3t1.so \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.sensormodule.f1a_imx481.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.f1a_imx481.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.sensormodule.f1a_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.f1a_imx586.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.sensormodule.f1a_s5k3m5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.f1a_s5k3m5.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.sensormodule.luxvisions_imx481.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.luxvisions_imx481.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.sensormodule.luxvisions_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.luxvisions_imx586.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.sensormodule.luxvisions_s5k3m5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.luxvisions_s5k3m5.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.sensormodule.ofilm_s5k3t1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ofilm_s5k3t1.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.sensormodule.semco_imx481.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.semco_imx481.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.sensormodule.semco_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.semco_imx586.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.sensormodule.semco_s5k3m5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.semco_s5k3m5.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_largan_s5k3t1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_largan_s5k3t1.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_s5k3t1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_s5k3t1.bin \
     vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.tuned.f1a_semco_imx481.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.f1a_semco_imx481.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.tuned.f1a_semco_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.f1a_semco_imx586.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.tuned.f1a_semco_s5k3m5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.f1a_semco_s5k3m5.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.tuned.luvis_imx481.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.luvis_imx481.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.tuned.luvis_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.luvis_imx586.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.tuned.luvis_s5k3m5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.luvis_s5k3m5.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.tuned.ofilm_s5k3t1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.ofilm_s5k3t1.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.tuned.semco_imx481.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.semco_imx481.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.tuned.semco_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.semco_imx586.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.tuned.semco_s5k3m5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.semco_s5k3m5.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_largan_s5k3t1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_largan_s5k3t1.bin \
+    vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_s5k3t1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_s5k3t1.bin \
     vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/components/com.almalence.node.sr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.almalence.node.sr.so \
     vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/components/com.altek.node.depurple.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.altek.node.depurple.so \
     vendor/xiaomi/cepheus/proprietary/vendor/lib64/camera/components/com.altek.node.distortioncorrection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.altek.node.distortioncorrection.so \
