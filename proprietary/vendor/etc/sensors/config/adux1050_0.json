@@ -1,7 +1,7 @@
 {
   "config":{
-    "hw_platform": ["QRD", "MTP", "Dragon", "Surf", "HDK", "RAPHAEL"],
-    "soc_id": ["291", "246", "305", "321", "336", "339", "341", "360"]
+    "hw_platform": ["MTP", "Dragon", "Surf", "POLARIS", "PERSEUS", "CEPHEUS"],
+    "soc_id": ["291", "246", "305", "321", "339"]
   },
   "adux1050_0":{
     "owner": "sns_adux1050",

@@ -1,7 +1,7 @@
 {
   "config":
   {
-    "hw_platform": ["MTP", "Surf", "QRD", "HDK", "RAPHAEL"],
+    "hw_platform": ["MTP", "Surf", "QRD", "HDK", "CEPHEUS"],
     "soc_id": ["321", "341", "339"]
   },
   "ak0991x_0_platform":{
@@ -56,11 +56,11 @@
     },
     ".orient":{
       "owner": "sns_ak0991x",
-      "x":{ "type": "str", "ver": "2",
-        "data": "-y"
-      },
-      "y":{ "type": "str", "ver": "2",
+      "x":{ "type": "str", "ver": "1",
         "data": "+x"
+      },
+      "y":{ "type": "str", "ver": "1",
+        "data": "+y"
       },
       "z":{ "type": "str", "ver": "1",
         "data": "+z"
